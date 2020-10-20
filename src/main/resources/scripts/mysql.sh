@@ -1,0 +1,1 @@
+docker run --restart always --name mysql8.0 --net dev-network -v /Users/kamlesh/Development/GitHubProjects/reddit-clone-backend/mysql_data:/var/lib/mysql -p 3306:3306 -d -e MYSQL_ROOT_PASSWORD=password mysql:8.0
